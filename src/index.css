@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.netprobe-graphs {
+  display: flex;
+  margin-top: 10px;
+}
+
+.netprobe-graph {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+/* .netprobe-graph:first-child {
+    margin-right: 3px;
+} */
+
+.netprobe-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.netprobe-status {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+label {
+  font-weight: bold;
+}
+
+label * {
+  margin-left: 10px;
+}
